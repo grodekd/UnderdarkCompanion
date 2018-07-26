@@ -1,0 +1,60 @@
+﻿Prevent app from breaking if you travel/advance day without setting a log (default log?)
+
+Add days traveled this trip and total days traveled distinction
+
+Add "Travel Day" and "Progress Day" to Controller, each with own popup entry form
+
+Write travel info to log file (xml)
+	<trip outset= destination=>
+		<travelDay>
+			<travelers></travelers>
+			<pace></pace>
+			<forage>
+				<status>impossible(pace), unattempted, failed, successful</status>
+				<check difficulty="easy, normal, hard">roll</check>
+				<food></food>
+				<water></water>
+			</forage>
+			<forcedMarch></forcedMarch>
+			<encounter? type=>desc</encounter>
+			<foodRemaining></foodRemaining>
+			<waterRemaining></waterRemaining>
+		</travelDay>
+		<day>
+			<travelers></travelers>
+			<location></location>
+			<supplyGain>
+				<food></food>
+				<water></water>
+				<source></source>
+			</supplyGain>
+			<events></events>
+		</day>
+	</trip>
+	<day>
+		<travelers></travelers>
+		<location></location>
+		<supplyGain>
+			<food></food>
+			<water></water>
+			<source></source>
+		</supplyGain>
+		<events></events>
+	</day>
+
+Create statistics page based on log
+	Total days(and percent) traveled at each pace
+	Most concecutive days at each pace
+
+	Most food/water on hand
+	Least food/water on hand
+	Number of forage successes/fails (and percentages)
+	Forage attempt percentage (vs. possible)
+	Highest forage check roll
+	? Highest failed check roll
+	? Lowest successful check roll
+	Most/least food/water gathered
+
+	Total encounters (? by type)
+	Encounters hit at each pace
+	Times surprised/surprising
