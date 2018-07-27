@@ -67,6 +67,14 @@ namespace UnderdarkCompanion
 
             var dayNode = dataXml.CreateElement("travelDay");
 
+            var outsetNode = dataXml.CreateElement("outset");
+            outsetNode.InnerText = currentTrip.Outset;
+            dayNode.AppendChild(outsetNode);
+
+            var destinationNode = dataXml.CreateElement("destination");
+            destinationNode.InnerText = currentTrip.Destination;
+            dayNode.AppendChild(destinationNode);
+
             var travelersNode = dataXml.CreateElement("travelers");
             travelersNode.InnerText = travelDayInput.GetTravelerCount();
             dayNode.AppendChild(travelersNode);
