@@ -48,7 +48,7 @@ namespace UnderdarkCompanion
         {
             currentTrip.Travel((int)daysToTravelInput.Value);
             UpdateTravelDataOnForm();
-            log.LogTravelDay(currentTrip);
+            //log.LogTravelDay(currentTrip);
         }
 
         private void UpdateTravelDataOnForm()

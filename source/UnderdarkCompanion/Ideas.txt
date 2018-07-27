@@ -1,36 +1,28 @@
 ﻿Prevent app from breaking if you travel/advance day without setting a log (default log?)
 
+Add the different roles (https://crobi.github.io/dnd5e-travel/)
+
 Add days traveled this trip and total days traveled distinction
 
 Add "Travel Day" and "Progress Day" to Controller, each with own popup entry form
 
 Write travel info to log file (xml)
-	<trip outset= destination=>
-		<travelDay>
-			<travelers></travelers>
-			<pace></pace>
-			<forage>
-				<status>impossible(pace), unattempted, failed, successful</status>
-				<check difficulty="easy, normal, hard">roll</check>
-				<food></food>
-				<water></water>
-			</forage>
-			<forcedMarch></forcedMarch>
-			<encounter? type=>desc</encounter>
-			<foodRemaining></foodRemaining>
-			<waterRemaining></waterRemaining>
-		</travelDay>
-		<day>
-			<travelers></travelers>
-			<location></location>
-			<supplyGain>
-				<food></food>
-				<water></water>
-				<source></source>
-			</supplyGain>
-			<events></events>
-		</day>
-	</trip>
+	<travelDay>
+		<outset></outset>
+		<destination></destination>
+		<travelers></travelers>
+		<pace></pace>
+		<forage>
+			<status>impossible(pace), unattempted, failed, successful</status>
+			<check difficulty="easy, normal, hard">roll</check>
+			<food></food>
+			<water></water>
+		</forage>
+		<forcedMarch></forcedMarch>
+		<encounter? type=>desc</encounter>
+		<foodRemaining></foodRemaining>
+		<waterRemaining></waterRemaining>
+	</travelDay>
 	<day>
 		<travelers></travelers>
 		<location></location>
