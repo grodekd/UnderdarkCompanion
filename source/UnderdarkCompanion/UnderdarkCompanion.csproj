@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character.cs" />
     <Compile Include="ControlForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +55,9 @@
     <Compile Include="LocationDictionary.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="OvalPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RolePictureBox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="TravelDayInputForm.cs">
@@ -110,6 +114,10 @@
     <Content Include="Images\character.bmp" />
     <Content Include="Images\Derendil.bmp" />
     <Content Include="Images\Eldeth.bmp" />
+    <Content Include="Images\Foraging.bmp" />
+    <Content Include="Images\Covering.bmp" />
+    <Content Include="Images\Scouting.bmp" />
+    <Content Include="Images\Navigating.bmp" />
     <Content Include="Images\ration.bmp" />
     <Content Include="Images\Sarith.bmp" />
     <Content Include="Images\shadow.bmp" />

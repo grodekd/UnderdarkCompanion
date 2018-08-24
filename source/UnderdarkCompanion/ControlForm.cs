@@ -27,9 +27,9 @@ namespace UnderdarkCompanion
             var destination = destinationComboBox.SelectedItem.ToString();
 
             currentTrip = new Trip(outset, destination);
-
-            companionForm.SetOutset(currentTrip.Outset);
+            
             companionForm.SetDestination(currentTrip.Destination);
+            companionForm.SetOutset(currentTrip.Outset);
             companionForm.SetEta(currentTrip.GetEta());
             SetDaysOfSuppliesRemaining();
         }
@@ -96,8 +96,8 @@ namespace UnderdarkCompanion
 
         private void UpdateAllTripDataOnForm()
         {
-            companionForm.SetOutset(currentTrip.Outset);
             companionForm.SetDestination(currentTrip.Destination);
+            companionForm.SetOutset(currentTrip.Outset);
             companionForm.SetPace(currentTrip.CurrentPace);
             UpdateTravelDataOnForm();
         }

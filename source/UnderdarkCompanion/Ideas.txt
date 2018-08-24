@@ -1,4 +1,8 @@
-﻿Prevent app from breaking if you travel/advance day without setting a log (default log?)
+﻿**CREATE ROLE CLASS
+
+
+
+Prevent app from breaking if you travel/advance day without setting a log (default log?)
 
 Add the different roles (https://crobi.github.io/dnd5e-travel/)
 
