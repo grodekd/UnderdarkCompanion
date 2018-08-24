@@ -9,17 +9,22 @@ namespace UnderdarkCompanion
     public partial class UnderdarkCompanionForm : Form
     {
         private List<Character> characters = new List<Character>();
+        private int navigatingCount = 2;
+        private int foragingCount = 0;
+        private int scoutingCount = 0;
+        private int coveringCount = 0;
 
-        private Dictionary<Role, RoleGridView> roleGridLookup;
+        private Dictionary<Role, Label> roleCountLabelLookup;
 
         public UnderdarkCompanionForm()
         {
             InitializeComponent();
             InitializeCharacters();
 
-            roleGridLookup = new Dictionary<Role, RoleGridView>
+            roleCountLabelLookup = new Dictionary<Role, Label>
             {
-                { Role.Navigating, navigatingGrid }, { Role.Foraging, foragingGrid }, { Role.Scouting, scoutingGrid }, { Role.Covering, coveringGrid }
+                { Role.Navigating, charactersNavigatingLabel }, { Role.Foraging, charactersForagingLabel },
+                { Role.Scouting, charactersScoutingLabel }, { Role.Covering, charactersScoutingLabel }
             };
 
             var controller = new ControlForm(this);
@@ -30,11 +35,9 @@ namespace UnderdarkCompanion
         {
             var newCharacter = new Character("Bierek Zoomzeros", 6, 6, 4, 2);
             characters.Add(newCharacter);
-            navigatingGrid.AddCharacter(newCharacter, (int)Role.Navigating);
 
             newCharacter = new Character("Dorian Grimlock", 0, 2, 0, 0);
             characters.Add(newCharacter);
-            navigatingGrid.AddCharacter(newCharacter, (int)Role.Navigating);
 
             newCharacter = new Character("Selice", 2, 2, 2, 4);
             characters.Add(newCharacter);
@@ -53,6 +56,8 @@ namespace UnderdarkCompanion
 
             newCharacter = new Character("Sarith Kzekarit", 3, 3, 3, 3);
             characters.Add(newCharacter);
+
+            charactersNavigatingLabel.Text = "2";
         }
 
         public void SetDestination(string destination)
@@ -105,13 +110,15 @@ namespace UnderdarkCompanion
             var pictureBox = sender as RolePictureBox;
             var character = characters.First(cha => cha.Name == pictureBox.CharacterNameLabel.Text);
 
-            roleGridLookup[(Role)pictureBox.RoleIndex].RemoveCharacter(character);
+            var count = Convert.ToInt32(roleCountLabelLookup[(Role)pictureBox.RoleIndex].Text);
+            roleCountLabelLookup[(Role)pictureBox.RoleIndex].Text = (count - 1).ToString();
             
             pictureBox.RoleIndex = DetermineNextRoleIndex(pictureBox.RoleIndex);
             pictureBox.RoleLabel.Text = ((Role)pictureBox.RoleIndex).ToString();
             pictureBox.Image = GetImageForRole(pictureBox.RoleLabel.Text);
 
-            roleGridLookup[(Role)pictureBox.RoleIndex].AddCharacter(character, pictureBox.RoleIndex);
+            count = Convert.ToInt32(roleCountLabelLookup[(Role)pictureBox.RoleIndex].Text);
+            roleCountLabelLookup[(Role)pictureBox.RoleIndex].Text = (count + 1).ToString();
         }
 
         private int DetermineNextRoleIndex(int currentRoleIndex)

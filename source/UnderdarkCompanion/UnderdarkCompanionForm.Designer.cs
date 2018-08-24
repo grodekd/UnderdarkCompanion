@@ -29,22 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UnderdarkCompanionForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.rolePictureBox1 = new UnderdarkCompanion.RolePictureBox();
             this.playerOneName = new System.Windows.Forms.Label();
@@ -94,22 +78,14 @@
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.foragingGrid = new UnderdarkCompanion.RoleGridView();
-            this.label3 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.scoutingGrid = new UnderdarkCompanion.RoleGridView();
-            this.scoutingGridNameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.scoutingGridRollColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label10 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.coveringGrid = new UnderdarkCompanion.RoleGridView();
-            this.coveringGridNameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coveringGridRollColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label26 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.navigatingGrid = new UnderdarkCompanion.RoleGridView();
-            this.navigatingGridNameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.navigatingGridRollColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -122,8 +98,18 @@
             this.ovalPictureBox3 = new UnderdarkCompanion.OvalPictureBox();
             this.ovalPictureBox1 = new UnderdarkCompanion.OvalPictureBox();
             this.pictureBox1 = new UnderdarkCompanion.OvalPictureBox();
-            this.ForagingGridNameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.foragingGridRollColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.charactersNavigatingLabel = new System.Windows.Forms.Label();
+            this.charactersForagingLabel = new System.Windows.Forms.Label();
+            this.charactersScoutingLabel = new System.Windows.Forms.Label();
+            this.charactersCoveringLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -137,13 +123,9 @@
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.foragingGrid)).BeginInit();
             this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.scoutingGrid)).BeginInit();
             this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.coveringGrid)).BeginInit();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.navigatingGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ovalPictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ovalPictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ovalPictureBox7)).BeginInit();
@@ -707,298 +689,131 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel8.Controls.Add(this.foragingGrid);
+            this.panel8.Controls.Add(this.charactersForagingLabel);
+            this.panel8.Controls.Add(this.textBox8);
             this.panel8.Controls.Add(this.label3);
-            this.panel8.Location = new System.Drawing.Point(1132, 256);
+            this.panel8.Controls.Add(this.textBox4);
+            this.panel8.Controls.Add(this.textBox3);
+            this.panel8.Controls.Add(this.textBox2);
+            this.panel8.Location = new System.Drawing.Point(991, 351);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(428, 214);
+            this.panel8.Size = new System.Drawing.Size(428, 191);
             this.panel8.TabIndex = 9;
             // 
-            // foragingGrid
+            // textBox4
             // 
-            this.foragingGrid.AllowUserToAddRows = false;
-            this.foragingGrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.foragingGrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.foragingGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.foragingGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Viner Hand ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.foragingGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.foragingGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.foragingGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ForagingGridNameColumn,
-            this.foragingGridRollColumn});
-            this.foragingGrid.EnableHeadersVisualStyles = false;
-            this.foragingGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.foragingGrid.Location = new System.Drawing.Point(10, 42);
-            this.foragingGrid.Name = "foragingGrid";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.foragingGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.foragingGrid.RowHeadersVisible = false;
-            this.foragingGrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
-            this.foragingGrid.Size = new System.Drawing.Size(392, 169);
-            this.foragingGrid.TabIndex = 3;
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.Color.Silver;
+            this.textBox4.Location = new System.Drawing.Point(3, 120);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(422, 38);
+            this.textBox4.TabIndex = 8;
+            this.textBox4.Text = "1 d 6 + WIS Water";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label3
+            // textBox3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Viner Hand ITC", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Silver;
-            this.label3.Location = new System.Drawing.Point(3, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 44);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Foraging";
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.Silver;
+            this.textBox3.Location = new System.Drawing.Point(0, 87);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(422, 38);
+            this.textBox3.TabIndex = 7;
+            this.textBox3.Text = "1 d 6 + WIS Food";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.Silver;
+            this.textBox2.Location = new System.Drawing.Point(3, 55);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(422, 38);
+            this.textBox2.TabIndex = 6;
+            this.textBox2.Text = "Survival check to find:";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel10.Controls.Add(this.scoutingGrid);
-            this.panel10.Controls.Add(this.label10);
-            this.panel10.Location = new System.Drawing.Point(1132, 483);
+            this.panel10.Controls.Add(this.charactersScoutingLabel);
+            this.panel10.Controls.Add(this.textBox9);
+            this.panel10.Controls.Add(this.label8);
+            this.panel10.Controls.Add(this.textBox5);
+            this.panel10.Location = new System.Drawing.Point(991, 548);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(428, 214);
+            this.panel10.Size = new System.Drawing.Size(428, 191);
             this.panel10.TabIndex = 10;
             // 
-            // scoutingGrid
+            // textBox5
             // 
-            this.scoutingGrid.AllowUserToAddRows = false;
-            this.scoutingGrid.AllowUserToResizeColumns = false;
-            this.scoutingGrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.scoutingGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.scoutingGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.scoutingGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.scoutingGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.scoutingGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.scoutingGridNameColumn,
-            this.scoutingGridRollColumn});
-            this.scoutingGrid.EnableHeadersVisualStyles = false;
-            this.scoutingGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.scoutingGrid.Location = new System.Drawing.Point(10, 42);
-            this.scoutingGrid.Name = "scoutingGrid";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.scoutingGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.scoutingGrid.RowHeadersVisible = false;
-            this.scoutingGrid.Size = new System.Drawing.Size(392, 169);
-            this.scoutingGrid.TabIndex = 4;
-            // 
-            // scoutingGridNameColumn
-            // 
-            this.scoutingGridNameColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.scoutingGridNameColumn.DefaultCellStyle = dataGridViewCellStyle6;
-            this.scoutingGridNameColumn.HeaderText = "Name";
-            this.scoutingGridNameColumn.Name = "scoutingGridNameColumn";
-            this.scoutingGridNameColumn.Width = 80;
-            // 
-            // scoutingGridRollColumn
-            // 
-            this.scoutingGridRollColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.White;
-            this.scoutingGridRollColumn.DefaultCellStyle = dataGridViewCellStyle7;
-            this.scoutingGridRollColumn.HeaderText = "Roll";
-            this.scoutingGridRollColumn.Name = "scoutingGridRollColumn";
-            this.scoutingGridRollColumn.Width = 66;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Silver;
-            this.label10.Location = new System.Drawing.Point(3, -2);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(119, 39);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Scouting";
+            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.ForeColor = System.Drawing.Color.Silver;
+            this.textBox5.Location = new System.Drawing.Point(3, 53);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(422, 79);
+            this.textBox5.TabIndex = 6;
+            this.textBox5.Text = "Perception check to notice encounters and points of interest.";
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel11.Controls.Add(this.coveringGrid);
-            this.panel11.Controls.Add(this.label26);
-            this.panel11.Location = new System.Drawing.Point(1132, 722);
+            this.panel11.Controls.Add(this.charactersCoveringLabel);
+            this.panel11.Controls.Add(this.textBox10);
+            this.panel11.Controls.Add(this.label6);
+            this.panel11.Controls.Add(this.textBox6);
+            this.panel11.Location = new System.Drawing.Point(991, 745);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(428, 214);
+            this.panel11.Size = new System.Drawing.Size(428, 191);
             this.panel11.TabIndex = 12;
-            // 
-            // coveringGrid
-            // 
-            this.coveringGrid.AllowUserToAddRows = false;
-            this.coveringGrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.coveringGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.coveringGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.coveringGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            this.coveringGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.coveringGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.coveringGridNameColumn,
-            this.coveringGridRollColumn});
-            this.coveringGrid.EnableHeadersVisualStyles = false;
-            this.coveringGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.coveringGrid.Location = new System.Drawing.Point(10, 39);
-            this.coveringGrid.Name = "coveringGrid";
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.coveringGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
-            this.coveringGrid.RowHeadersVisible = false;
-            this.coveringGrid.Size = new System.Drawing.Size(392, 169);
-            this.coveringGrid.TabIndex = 4;
-            // 
-            // coveringGridNameColumn
-            // 
-            this.coveringGridNameColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.coveringGridNameColumn.DefaultCellStyle = dataGridViewCellStyle10;
-            this.coveringGridNameColumn.HeaderText = "Name";
-            this.coveringGridNameColumn.Name = "coveringGridNameColumn";
-            this.coveringGridNameColumn.Width = 80;
-            // 
-            // coveringGridRollColumn
-            // 
-            this.coveringGridRollColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.White;
-            this.coveringGridRollColumn.DefaultCellStyle = dataGridViewCellStyle11;
-            this.coveringGridRollColumn.HeaderText = "Roll";
-            this.coveringGridRollColumn.Name = "coveringGridRollColumn";
-            this.coveringGridRollColumn.Width = 66;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.Silver;
-            this.label26.Location = new System.Drawing.Point(3, -3);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(115, 39);
-            this.label26.TabIndex = 3;
-            this.label26.Text = "Covering";
             // 
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel12.Controls.Add(this.navigatingGrid);
+            this.panel12.Controls.Add(this.charactersNavigatingLabel);
+            this.panel12.Controls.Add(this.textBox7);
+            this.panel12.Controls.Add(this.textBox1);
             this.panel12.Controls.Add(this.label11);
-            this.panel12.Location = new System.Drawing.Point(1132, 26);
+            this.panel12.Location = new System.Drawing.Point(991, 154);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(428, 214);
+            this.panel12.Size = new System.Drawing.Size(428, 191);
             this.panel12.TabIndex = 11;
             // 
-            // navigatingGrid
+            // textBox1
             // 
-            this.navigatingGrid.AllowUserToAddRows = false;
-            this.navigatingGrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.navigatingGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.navigatingGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.navigatingGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
-            this.navigatingGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.navigatingGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.navigatingGridNameColumn,
-            this.navigatingGridRollColumn});
-            this.navigatingGrid.EnableHeadersVisualStyles = false;
-            this.navigatingGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.navigatingGrid.Location = new System.Drawing.Point(10, 42);
-            this.navigatingGrid.Name = "navigatingGrid";
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.navigatingGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle16;
-            this.navigatingGrid.RowHeadersVisible = false;
-            this.navigatingGrid.Size = new System.Drawing.Size(392, 169);
-            this.navigatingGrid.TabIndex = 4;
-            // 
-            // navigatingGridNameColumn
-            // 
-            this.navigatingGridNameColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.navigatingGridNameColumn.DefaultCellStyle = dataGridViewCellStyle14;
-            this.navigatingGridNameColumn.HeaderText = "Name";
-            this.navigatingGridNameColumn.Name = "navigatingGridNameColumn";
-            this.navigatingGridNameColumn.Width = 80;
-            // 
-            // navigatingGridRollColumn
-            // 
-            this.navigatingGridRollColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.White;
-            this.navigatingGridRollColumn.DefaultCellStyle = dataGridViewCellStyle15;
-            this.navigatingGridRollColumn.HeaderText = "Roll";
-            this.navigatingGridRollColumn.Name = "navigatingGridRollColumn";
-            this.navigatingGridRollColumn.Width = 66;
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Silver;
+            this.textBox1.Location = new System.Drawing.Point(3, 54);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(422, 79);
+            this.textBox1.TabIndex = 5;
+            this.textBox1.Text = "Survival check to not get lost, and possible CON check.";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Silver;
-            this.label11.Location = new System.Drawing.Point(3, 0);
+            this.label11.Location = new System.Drawing.Point(126, 5);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(150, 39);
+            this.label11.Size = new System.Drawing.Size(177, 47);
             this.label11.TabIndex = 3;
             this.label11.Text = "Navigating";
             // 
@@ -1121,30 +936,144 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // ForagingGridNameColumn
+            // textBox6
             // 
-            this.ForagingGridNameColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Viner Hand ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ForagingGridNameColumn.DefaultCellStyle = dataGridViewCellStyle2;
-            this.ForagingGridNameColumn.HeaderText = "Name";
-            this.ForagingGridNameColumn.Name = "ForagingGridNameColumn";
-            this.ForagingGridNameColumn.Width = 96;
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.ForeColor = System.Drawing.Color.Silver;
+            this.textBox6.Location = new System.Drawing.Point(3, 56);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(422, 79);
+            this.textBox6.TabIndex = 7;
+            this.textBox6.Text = "Survival check to cover the party\'s trail.";
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // foragingGridRollColumn
+            // label6
             // 
-            this.foragingGridRollColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Viner Hand ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            this.foragingGridRollColumn.DefaultCellStyle = dataGridViewCellStyle3;
-            this.foragingGridRollColumn.HeaderText = "Roll";
-            this.foragingGridRollColumn.Name = "foragingGridRollColumn";
-            this.foragingGridRollColumn.Width = 78;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Silver;
+            this.label6.Location = new System.Drawing.Point(139, 5);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(137, 47);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Covering";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Silver;
+            this.label8.Location = new System.Drawing.Point(135, 5);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(141, 47);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Scouting";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Silver;
+            this.label3.Location = new System.Drawing.Point(141, 5);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(135, 47);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Foraging";
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.ForeColor = System.Drawing.Color.Silver;
+            this.textBox7.Location = new System.Drawing.Point(17, 150);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(296, 39);
+            this.textBox7.TabIndex = 7;
+            this.textBox7.Text = "Characters Navigating:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.ForeColor = System.Drawing.Color.Silver;
+            this.textBox8.Location = new System.Drawing.Point(17, 149);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(259, 39);
+            this.textBox8.TabIndex = 10;
+            this.textBox8.Text = "Characters Foraging:";
+            // 
+            // textBox9
+            // 
+            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox9.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.ForeColor = System.Drawing.Color.Silver;
+            this.textBox9.Location = new System.Drawing.Point(17, 149);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(259, 39);
+            this.textBox9.TabIndex = 8;
+            this.textBox9.Text = "Characters Scouting:";
+            // 
+            // textBox10
+            // 
+            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox10.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.ForeColor = System.Drawing.Color.Silver;
+            this.textBox10.Location = new System.Drawing.Point(17, 149);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(259, 39);
+            this.textBox10.TabIndex = 9;
+            this.textBox10.Text = "Characters Covering:";
+            // 
+            // charactersNavigatingLabel
+            // 
+            this.charactersNavigatingLabel.AutoSize = true;
+            this.charactersNavigatingLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.charactersNavigatingLabel.ForeColor = System.Drawing.Color.Silver;
+            this.charactersNavigatingLabel.Location = new System.Drawing.Point(347, 150);
+            this.charactersNavigatingLabel.Name = "charactersNavigatingLabel";
+            this.charactersNavigatingLabel.Size = new System.Drawing.Size(29, 39);
+            this.charactersNavigatingLabel.TabIndex = 8;
+            this.charactersNavigatingLabel.Text = "0";
+            // 
+            // charactersForagingLabel
+            // 
+            this.charactersForagingLabel.AutoSize = true;
+            this.charactersForagingLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.charactersForagingLabel.ForeColor = System.Drawing.Color.Silver;
+            this.charactersForagingLabel.Location = new System.Drawing.Point(347, 149);
+            this.charactersForagingLabel.Name = "charactersForagingLabel";
+            this.charactersForagingLabel.Size = new System.Drawing.Size(29, 39);
+            this.charactersForagingLabel.TabIndex = 11;
+            this.charactersForagingLabel.Text = "0";
+            // 
+            // charactersScoutingLabel
+            // 
+            this.charactersScoutingLabel.AutoSize = true;
+            this.charactersScoutingLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.charactersScoutingLabel.ForeColor = System.Drawing.Color.Silver;
+            this.charactersScoutingLabel.Location = new System.Drawing.Point(347, 149);
+            this.charactersScoutingLabel.Name = "charactersScoutingLabel";
+            this.charactersScoutingLabel.Size = new System.Drawing.Size(29, 39);
+            this.charactersScoutingLabel.TabIndex = 9;
+            this.charactersScoutingLabel.Text = "0";
+            // 
+            // charactersCoveringLabel
+            // 
+            this.charactersCoveringLabel.AutoSize = true;
+            this.charactersCoveringLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.charactersCoveringLabel.ForeColor = System.Drawing.Color.Silver;
+            this.charactersCoveringLabel.Location = new System.Drawing.Point(347, 149);
+            this.charactersCoveringLabel.Name = "charactersCoveringLabel";
+            this.charactersCoveringLabel.Size = new System.Drawing.Size(29, 39);
+            this.charactersCoveringLabel.TabIndex = 10;
+            this.charactersCoveringLabel.Text = "0";
             // 
             // UnderdarkCompanionForm
             // 
@@ -1214,16 +1143,12 @@
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.foragingGrid)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.scoutingGrid)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.coveringGrid)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.navigatingGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ovalPictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ovalPictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ovalPictureBox7)).EndInit();
@@ -1292,32 +1217,34 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label outsetLabel;
         private RolePictureBox rolePictureBox1;
         private RolePictureBox rolePictureBox2;
-        private RoleGridView foragingGrid;
         private System.Windows.Forms.Label playerTwoRole;
         private System.Windows.Forms.Label label19;
-        private RoleGridView navigatingGrid;
-        private RoleGridView scoutingGrid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn scoutingGridNameColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn scoutingGridRollColumn;
-        private RoleGridView coveringGrid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn coveringGridNameColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn coveringGridRollColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn navigatingGridNameColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn navigatingGridRollColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ForagingGridNameColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn foragingGridRollColumn;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label charactersForagingLabel;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label charactersScoutingLabel;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label charactersCoveringLabel;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label charactersNavigatingLabel;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }
 

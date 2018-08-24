@@ -57,9 +57,6 @@
     <Compile Include="OvalPictureBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RoleGridView.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="RolePictureBox.cs">
       <SubType>Component</SubType>
     </Compile>
