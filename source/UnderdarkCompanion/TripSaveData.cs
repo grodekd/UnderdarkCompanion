@@ -105,7 +105,7 @@ namespace UnderdarkCompanion
             var outset = dataXml.SelectSingleNode("//trip/outset").InnerText;
             var daysTraveled = dataXml.SelectSingleNode("//trip/days").InnerText;
             var milesRemaining = dataXml.SelectSingleNode("//trip/miles").InnerText;
-            return new Trip(destination, outset, Convert.ToInt32(daysTraveled), Convert.ToInt32(milesRemaining));
+            return new Trip(outset, destination, Convert.ToInt32(daysTraveled), Convert.ToInt32(milesRemaining));
         }
     }
 }

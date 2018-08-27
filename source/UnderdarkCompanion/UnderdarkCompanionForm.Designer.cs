@@ -54,37 +54,55 @@
             this.playerTwoRole = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.rolePictureBox3 = new UnderdarkCompanion.RolePictureBox();
+            this.playerThreeName = new System.Windows.Forms.Label();
             this.playerThreeRole = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.rolePictureBox4 = new UnderdarkCompanion.RolePictureBox();
+            this.playerFourName = new System.Windows.Forms.Label();
             this.playerFourRole = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.rolePictureBox5 = new UnderdarkCompanion.RolePictureBox();
+            this.playerFiveName = new System.Windows.Forms.Label();
             this.playerFiveRole = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.rolePictureBox6 = new UnderdarkCompanion.RolePictureBox();
+            this.eldethName = new System.Windows.Forms.Label();
             this.eldethRole = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.rolePictureBox7 = new UnderdarkCompanion.RolePictureBox();
+            this.princeName = new System.Windows.Forms.Label();
             this.princeRole = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.rolePictureBox8 = new UnderdarkCompanion.RolePictureBox();
+            this.sarithName = new System.Windows.Forms.Label();
             this.sarithRole = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.charactersForagingLabel = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.charactersScoutingLabel = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.charactersCoveringLabel = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.charactersNavigatingLabel = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
@@ -98,18 +116,6 @@
             this.ovalPictureBox3 = new UnderdarkCompanion.OvalPictureBox();
             this.ovalPictureBox1 = new UnderdarkCompanion.OvalPictureBox();
             this.pictureBox1 = new UnderdarkCompanion.OvalPictureBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.charactersNavigatingLabel = new System.Windows.Forms.Label();
-            this.charactersForagingLabel = new System.Windows.Forms.Label();
-            this.charactersScoutingLabel = new System.Windows.Forms.Label();
-            this.charactersCoveringLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -117,11 +123,17 @@
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox3)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox5)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox6)).BeginInit();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox7)).BeginInit();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox8)).BeginInit();
             this.panel8.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -425,13 +437,38 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel2.Controls.Add(this.rolePictureBox3);
             this.panel2.Controls.Add(this.playerThreeRole);
             this.panel2.Controls.Add(this.label18);
-            this.panel2.Controls.Add(this.label21);
+            this.panel2.Controls.Add(this.playerThreeName);
             this.panel2.Location = new System.Drawing.Point(96, 523);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(355, 107);
             this.panel2.TabIndex = 39;
+            // 
+            // rolePictureBox3
+            // 
+            this.rolePictureBox3.CharacterNameLabel = this.playerThreeName;
+            this.rolePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("rolePictureBox3.Image")));
+            this.rolePictureBox3.Location = new System.Drawing.Point(280, 0);
+            this.rolePictureBox3.Name = "rolePictureBox3";
+            this.rolePictureBox3.RoleIndex = 0;
+            this.rolePictureBox3.RoleLabel = this.playerThreeRole;
+            this.rolePictureBox3.Size = new System.Drawing.Size(75, 75);
+            this.rolePictureBox3.TabIndex = 9;
+            this.rolePictureBox3.TabStop = false;
+            this.rolePictureBox3.Click += new System.EventHandler(this.ChangeRole);
+            // 
+            // playerThreeName
+            // 
+            this.playerThreeName.AutoSize = true;
+            this.playerThreeName.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerThreeName.ForeColor = System.Drawing.Color.Silver;
+            this.playerThreeName.Location = new System.Drawing.Point(51, 4);
+            this.playerThreeName.Name = "playerThreeName";
+            this.playerThreeName.Size = new System.Drawing.Size(82, 39);
+            this.playerThreeName.TabIndex = 1;
+            this.playerThreeName.Text = "Selice";
             // 
             // playerThreeRole
             // 
@@ -440,9 +477,9 @@
             this.playerThreeRole.ForeColor = System.Drawing.Color.Silver;
             this.playerThreeRole.Location = new System.Drawing.Point(91, 61);
             this.playerThreeRole.Name = "playerThreeRole";
-            this.playerThreeRole.Size = new System.Drawing.Size(32, 39);
+            this.playerThreeRole.Size = new System.Drawing.Size(150, 39);
             this.playerThreeRole.TabIndex = 4;
-            this.playerThreeRole.Text = "X";
+            this.playerThreeRole.Text = "Navigating";
             // 
             // label18
             // 
@@ -455,27 +492,41 @@
             this.label18.TabIndex = 3;
             this.label18.Text = "Role:";
             // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.Silver;
-            this.label21.Location = new System.Drawing.Point(51, 4);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(82, 39);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "Selice";
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel3.Controls.Add(this.rolePictureBox4);
             this.panel3.Controls.Add(this.playerFourRole);
             this.panel3.Controls.Add(this.label22);
-            this.panel3.Controls.Add(this.label23);
+            this.panel3.Controls.Add(this.playerFourName);
             this.panel3.Location = new System.Drawing.Point(96, 676);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(355, 107);
             this.panel3.TabIndex = 41;
+            // 
+            // rolePictureBox4
+            // 
+            this.rolePictureBox4.CharacterNameLabel = this.playerFourName;
+            this.rolePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("rolePictureBox4.Image")));
+            this.rolePictureBox4.Location = new System.Drawing.Point(280, 0);
+            this.rolePictureBox4.Name = "rolePictureBox4";
+            this.rolePictureBox4.RoleIndex = 0;
+            this.rolePictureBox4.RoleLabel = this.playerFourRole;
+            this.rolePictureBox4.Size = new System.Drawing.Size(75, 75);
+            this.rolePictureBox4.TabIndex = 9;
+            this.rolePictureBox4.TabStop = false;
+            this.rolePictureBox4.Click += new System.EventHandler(this.ChangeRole);
+            // 
+            // playerFourName
+            // 
+            this.playerFourName.AutoSize = true;
+            this.playerFourName.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerFourName.ForeColor = System.Drawing.Color.Silver;
+            this.playerFourName.Location = new System.Drawing.Point(51, 4);
+            this.playerFourName.Name = "playerFourName";
+            this.playerFourName.Size = new System.Drawing.Size(104, 39);
+            this.playerFourName.TabIndex = 1;
+            this.playerFourName.Text = "Shadow";
             // 
             // playerFourRole
             // 
@@ -484,9 +535,9 @@
             this.playerFourRole.ForeColor = System.Drawing.Color.Silver;
             this.playerFourRole.Location = new System.Drawing.Point(91, 61);
             this.playerFourRole.Name = "playerFourRole";
-            this.playerFourRole.Size = new System.Drawing.Size(32, 39);
+            this.playerFourRole.Size = new System.Drawing.Size(150, 39);
             this.playerFourRole.TabIndex = 4;
-            this.playerFourRole.Text = "X";
+            this.playerFourRole.Text = "Navigating";
             // 
             // label22
             // 
@@ -499,27 +550,41 @@
             this.label22.TabIndex = 3;
             this.label22.Text = "Role:";
             // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.Silver;
-            this.label23.Location = new System.Drawing.Point(51, 4);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(104, 39);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "Shadow";
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel4.Controls.Add(this.rolePictureBox5);
             this.panel4.Controls.Add(this.playerFiveRole);
             this.panel4.Controls.Add(this.label24);
-            this.panel4.Controls.Add(this.label25);
+            this.panel4.Controls.Add(this.playerFiveName);
             this.panel4.Location = new System.Drawing.Point(96, 829);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(355, 107);
             this.panel4.TabIndex = 43;
+            // 
+            // rolePictureBox5
+            // 
+            this.rolePictureBox5.CharacterNameLabel = this.playerFiveName;
+            this.rolePictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("rolePictureBox5.Image")));
+            this.rolePictureBox5.Location = new System.Drawing.Point(280, 0);
+            this.rolePictureBox5.Name = "rolePictureBox5";
+            this.rolePictureBox5.RoleIndex = 0;
+            this.rolePictureBox5.RoleLabel = this.playerFiveRole;
+            this.rolePictureBox5.Size = new System.Drawing.Size(75, 75);
+            this.rolePictureBox5.TabIndex = 9;
+            this.rolePictureBox5.TabStop = false;
+            this.rolePictureBox5.Click += new System.EventHandler(this.ChangeRole);
+            // 
+            // playerFiveName
+            // 
+            this.playerFiveName.AutoSize = true;
+            this.playerFiveName.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerFiveName.ForeColor = System.Drawing.Color.Silver;
+            this.playerFiveName.Location = new System.Drawing.Point(51, 4);
+            this.playerFiveName.Name = "playerFiveName";
+            this.playerFiveName.Size = new System.Drawing.Size(176, 39);
+            this.playerFiveName.TabIndex = 1;
+            this.playerFiveName.Text = "Vera Brawnen";
             // 
             // playerFiveRole
             // 
@@ -528,9 +593,9 @@
             this.playerFiveRole.ForeColor = System.Drawing.Color.Silver;
             this.playerFiveRole.Location = new System.Drawing.Point(91, 61);
             this.playerFiveRole.Name = "playerFiveRole";
-            this.playerFiveRole.Size = new System.Drawing.Size(32, 39);
+            this.playerFiveRole.Size = new System.Drawing.Size(150, 39);
             this.playerFiveRole.TabIndex = 4;
-            this.playerFiveRole.Text = "X";
+            this.playerFiveRole.Text = "Navigating";
             // 
             // label24
             // 
@@ -543,27 +608,41 @@
             this.label24.TabIndex = 3;
             this.label24.Text = "Role:";
             // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.Silver;
-            this.label25.Location = new System.Drawing.Point(51, 4);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(176, 39);
-            this.label25.TabIndex = 1;
-            this.label25.Text = "Vera Brawnen";
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel5.Controls.Add(this.rolePictureBox6);
             this.panel5.Controls.Add(this.eldethRole);
             this.panel5.Controls.Add(this.label27);
-            this.panel5.Controls.Add(this.label28);
+            this.panel5.Controls.Add(this.eldethName);
             this.panel5.Location = new System.Drawing.Point(552, 540);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(355, 107);
             this.panel5.TabIndex = 8;
+            // 
+            // rolePictureBox6
+            // 
+            this.rolePictureBox6.CharacterNameLabel = this.eldethName;
+            this.rolePictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("rolePictureBox6.Image")));
+            this.rolePictureBox6.Location = new System.Drawing.Point(280, 0);
+            this.rolePictureBox6.Name = "rolePictureBox6";
+            this.rolePictureBox6.RoleIndex = 0;
+            this.rolePictureBox6.RoleLabel = this.eldethRole;
+            this.rolePictureBox6.Size = new System.Drawing.Size(75, 75);
+            this.rolePictureBox6.TabIndex = 8;
+            this.rolePictureBox6.TabStop = false;
+            this.rolePictureBox6.Click += new System.EventHandler(this.ChangeRole);
+            // 
+            // eldethName
+            // 
+            this.eldethName.AutoSize = true;
+            this.eldethName.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eldethName.ForeColor = System.Drawing.Color.Silver;
+            this.eldethName.Location = new System.Drawing.Point(51, 4);
+            this.eldethName.Name = "eldethName";
+            this.eldethName.Size = new System.Drawing.Size(183, 39);
+            this.eldethName.TabIndex = 1;
+            this.eldethName.Text = "Eldeth Feldrun";
             // 
             // eldethRole
             // 
@@ -572,9 +651,9 @@
             this.eldethRole.ForeColor = System.Drawing.Color.Silver;
             this.eldethRole.Location = new System.Drawing.Point(91, 61);
             this.eldethRole.Name = "eldethRole";
-            this.eldethRole.Size = new System.Drawing.Size(32, 39);
+            this.eldethRole.Size = new System.Drawing.Size(150, 39);
             this.eldethRole.TabIndex = 4;
-            this.eldethRole.Text = "X";
+            this.eldethRole.Text = "Navigating";
             // 
             // label27
             // 
@@ -587,27 +666,41 @@
             this.label27.TabIndex = 3;
             this.label27.Text = "Role:";
             // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.Silver;
-            this.label28.Location = new System.Drawing.Point(51, 4);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(183, 39);
-            this.label28.TabIndex = 1;
-            this.label28.Text = "Eldeth Feldrun";
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel6.Controls.Add(this.rolePictureBox7);
             this.panel6.Controls.Add(this.princeRole);
             this.panel6.Controls.Add(this.label29);
-            this.panel6.Controls.Add(this.label30);
+            this.panel6.Controls.Add(this.princeName);
             this.panel6.Location = new System.Drawing.Point(552, 685);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(355, 107);
             this.panel6.TabIndex = 44;
+            // 
+            // rolePictureBox7
+            // 
+            this.rolePictureBox7.CharacterNameLabel = this.princeName;
+            this.rolePictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("rolePictureBox7.Image")));
+            this.rolePictureBox7.Location = new System.Drawing.Point(280, 0);
+            this.rolePictureBox7.Name = "rolePictureBox7";
+            this.rolePictureBox7.RoleIndex = 0;
+            this.rolePictureBox7.RoleLabel = this.princeRole;
+            this.rolePictureBox7.Size = new System.Drawing.Size(75, 75);
+            this.rolePictureBox7.TabIndex = 8;
+            this.rolePictureBox7.TabStop = false;
+            this.rolePictureBox7.Click += new System.EventHandler(this.ChangeRole);
+            // 
+            // princeName
+            // 
+            this.princeName.AutoSize = true;
+            this.princeName.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.princeName.ForeColor = System.Drawing.Color.Silver;
+            this.princeName.Location = new System.Drawing.Point(51, 4);
+            this.princeName.Name = "princeName";
+            this.princeName.Size = new System.Drawing.Size(188, 39);
+            this.princeName.TabIndex = 1;
+            this.princeName.Text = "Prince Derendil";
             // 
             // princeRole
             // 
@@ -616,9 +709,9 @@
             this.princeRole.ForeColor = System.Drawing.Color.Silver;
             this.princeRole.Location = new System.Drawing.Point(91, 61);
             this.princeRole.Name = "princeRole";
-            this.princeRole.Size = new System.Drawing.Size(32, 39);
+            this.princeRole.Size = new System.Drawing.Size(150, 39);
             this.princeRole.TabIndex = 4;
-            this.princeRole.Text = "X";
+            this.princeRole.Text = "Navigating";
             // 
             // label29
             // 
@@ -631,27 +724,41 @@
             this.label29.TabIndex = 3;
             this.label29.Text = "Role:";
             // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.Silver;
-            this.label30.Location = new System.Drawing.Point(51, 4);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(188, 39);
-            this.label30.TabIndex = 1;
-            this.label30.Text = "Prince Derendil";
-            // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel7.Controls.Add(this.rolePictureBox8);
             this.panel7.Controls.Add(this.sarithRole);
             this.panel7.Controls.Add(this.label31);
-            this.panel7.Controls.Add(this.label32);
+            this.panel7.Controls.Add(this.sarithName);
             this.panel7.Location = new System.Drawing.Point(552, 829);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(355, 107);
             this.panel7.TabIndex = 46;
+            // 
+            // rolePictureBox8
+            // 
+            this.rolePictureBox8.CharacterNameLabel = this.sarithName;
+            this.rolePictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("rolePictureBox8.Image")));
+            this.rolePictureBox8.Location = new System.Drawing.Point(280, 0);
+            this.rolePictureBox8.Name = "rolePictureBox8";
+            this.rolePictureBox8.RoleIndex = 0;
+            this.rolePictureBox8.RoleLabel = this.sarithRole;
+            this.rolePictureBox8.Size = new System.Drawing.Size(75, 75);
+            this.rolePictureBox8.TabIndex = 8;
+            this.rolePictureBox8.TabStop = false;
+            this.rolePictureBox8.Click += new System.EventHandler(this.ChangeRole);
+            // 
+            // sarithName
+            // 
+            this.sarithName.AutoSize = true;
+            this.sarithName.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sarithName.ForeColor = System.Drawing.Color.Silver;
+            this.sarithName.Location = new System.Drawing.Point(51, 4);
+            this.sarithName.Name = "sarithName";
+            this.sarithName.Size = new System.Drawing.Size(203, 39);
+            this.sarithName.TabIndex = 1;
+            this.sarithName.Text = "Sarith Kzekarit";
             // 
             // sarithRole
             // 
@@ -660,9 +767,9 @@
             this.sarithRole.ForeColor = System.Drawing.Color.Silver;
             this.sarithRole.Location = new System.Drawing.Point(91, 61);
             this.sarithRole.Name = "sarithRole";
-            this.sarithRole.Size = new System.Drawing.Size(32, 39);
+            this.sarithRole.Size = new System.Drawing.Size(150, 39);
             this.sarithRole.TabIndex = 4;
-            this.sarithRole.Text = "X";
+            this.sarithRole.Text = "Navigating";
             // 
             // label31
             // 
@@ -675,30 +782,67 @@
             this.label31.TabIndex = 3;
             this.label31.Text = "Role:";
             // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.Silver;
-            this.label32.Location = new System.Drawing.Point(51, 4);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(203, 39);
-            this.label32.TabIndex = 1;
-            this.label32.Text = "Sarith Kzekarit";
-            // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel8.Controls.Add(this.textBox2);
             this.panel8.Controls.Add(this.charactersForagingLabel);
             this.panel8.Controls.Add(this.textBox8);
             this.panel8.Controls.Add(this.label3);
             this.panel8.Controls.Add(this.textBox4);
             this.panel8.Controls.Add(this.textBox3);
-            this.panel8.Controls.Add(this.textBox2);
             this.panel8.Location = new System.Drawing.Point(991, 351);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(428, 191);
             this.panel8.TabIndex = 9;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.Silver;
+            this.textBox2.Location = new System.Drawing.Point(0, 55);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(422, 38);
+            this.textBox2.TabIndex = 12;
+            this.textBox2.Text = "Survival Check to Find:";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // charactersForagingLabel
+            // 
+            this.charactersForagingLabel.AutoSize = true;
+            this.charactersForagingLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.charactersForagingLabel.ForeColor = System.Drawing.Color.Silver;
+            this.charactersForagingLabel.Location = new System.Drawing.Point(347, 149);
+            this.charactersForagingLabel.Name = "charactersForagingLabel";
+            this.charactersForagingLabel.Size = new System.Drawing.Size(29, 39);
+            this.charactersForagingLabel.TabIndex = 11;
+            this.charactersForagingLabel.Text = "0";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.ForeColor = System.Drawing.Color.Silver;
+            this.textBox8.Location = new System.Drawing.Point(17, 149);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(259, 39);
+            this.textBox8.TabIndex = 10;
+            this.textBox8.Text = "Characters Foraging:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Silver;
+            this.label3.Location = new System.Drawing.Point(141, 5);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(135, 47);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Foraging";
             // 
             // textBox4
             // 
@@ -728,20 +872,6 @@
             this.textBox3.Text = "1 d 6 + WIS Food";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Silver;
-            this.textBox2.Location = new System.Drawing.Point(3, 55);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(422, 38);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "Survival check to find:";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -753,6 +883,40 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(428, 191);
             this.panel10.TabIndex = 10;
+            // 
+            // charactersScoutingLabel
+            // 
+            this.charactersScoutingLabel.AutoSize = true;
+            this.charactersScoutingLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.charactersScoutingLabel.ForeColor = System.Drawing.Color.Silver;
+            this.charactersScoutingLabel.Location = new System.Drawing.Point(347, 149);
+            this.charactersScoutingLabel.Name = "charactersScoutingLabel";
+            this.charactersScoutingLabel.Size = new System.Drawing.Size(29, 39);
+            this.charactersScoutingLabel.TabIndex = 9;
+            this.charactersScoutingLabel.Text = "0";
+            // 
+            // textBox9
+            // 
+            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox9.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.ForeColor = System.Drawing.Color.Silver;
+            this.textBox9.Location = new System.Drawing.Point(17, 149);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(259, 39);
+            this.textBox9.TabIndex = 8;
+            this.textBox9.Text = "Characters Scouting:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Silver;
+            this.label8.Location = new System.Drawing.Point(135, 5);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(141, 47);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Scouting";
             // 
             // textBox5
             // 
@@ -780,6 +944,54 @@
             this.panel11.Size = new System.Drawing.Size(428, 191);
             this.panel11.TabIndex = 12;
             // 
+            // charactersCoveringLabel
+            // 
+            this.charactersCoveringLabel.AutoSize = true;
+            this.charactersCoveringLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.charactersCoveringLabel.ForeColor = System.Drawing.Color.Silver;
+            this.charactersCoveringLabel.Location = new System.Drawing.Point(347, 149);
+            this.charactersCoveringLabel.Name = "charactersCoveringLabel";
+            this.charactersCoveringLabel.Size = new System.Drawing.Size(29, 39);
+            this.charactersCoveringLabel.TabIndex = 10;
+            this.charactersCoveringLabel.Text = "0";
+            // 
+            // textBox10
+            // 
+            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox10.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.ForeColor = System.Drawing.Color.Silver;
+            this.textBox10.Location = new System.Drawing.Point(17, 149);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(259, 39);
+            this.textBox10.TabIndex = 9;
+            this.textBox10.Text = "Characters Covering:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Silver;
+            this.label6.Location = new System.Drawing.Point(139, 5);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(137, 47);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Covering";
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.ForeColor = System.Drawing.Color.Silver;
+            this.textBox6.Location = new System.Drawing.Point(3, 56);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(422, 79);
+            this.textBox6.TabIndex = 7;
+            this.textBox6.Text = "Survival check to cover the party\'s trail.";
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -791,6 +1003,29 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(428, 191);
             this.panel12.TabIndex = 11;
+            // 
+            // charactersNavigatingLabel
+            // 
+            this.charactersNavigatingLabel.AutoSize = true;
+            this.charactersNavigatingLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.charactersNavigatingLabel.ForeColor = System.Drawing.Color.Silver;
+            this.charactersNavigatingLabel.Location = new System.Drawing.Point(347, 150);
+            this.charactersNavigatingLabel.Name = "charactersNavigatingLabel";
+            this.charactersNavigatingLabel.Size = new System.Drawing.Size(29, 39);
+            this.charactersNavigatingLabel.TabIndex = 8;
+            this.charactersNavigatingLabel.Text = "0";
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.ForeColor = System.Drawing.Color.Silver;
+            this.textBox7.Location = new System.Drawing.Point(17, 150);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(296, 39);
+            this.textBox7.TabIndex = 7;
+            this.textBox7.Text = "Characters Navigating:";
             // 
             // textBox1
             // 
@@ -936,151 +1171,12 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.Silver;
-            this.textBox6.Location = new System.Drawing.Point(3, 56);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(422, 79);
-            this.textBox6.TabIndex = 7;
-            this.textBox6.Text = "Survival check to cover the party\'s trail.";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Silver;
-            this.label6.Location = new System.Drawing.Point(139, 5);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(137, 47);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Covering";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Silver;
-            this.label8.Location = new System.Drawing.Point(135, 5);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(141, 47);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Scouting";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Viner Hand ITC", 21.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Silver;
-            this.label3.Location = new System.Drawing.Point(141, 5);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 47);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Foraging";
-            // 
-            // textBox7
-            // 
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.Color.Silver;
-            this.textBox7.Location = new System.Drawing.Point(17, 150);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(296, 39);
-            this.textBox7.TabIndex = 7;
-            this.textBox7.Text = "Characters Navigating:";
-            // 
-            // textBox8
-            // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.Color.Silver;
-            this.textBox8.Location = new System.Drawing.Point(17, 149);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(259, 39);
-            this.textBox8.TabIndex = 10;
-            this.textBox8.Text = "Characters Foraging:";
-            // 
-            // textBox9
-            // 
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.ForeColor = System.Drawing.Color.Silver;
-            this.textBox9.Location = new System.Drawing.Point(17, 149);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(259, 39);
-            this.textBox9.TabIndex = 8;
-            this.textBox9.Text = "Characters Scouting:";
-            // 
-            // textBox10
-            // 
-            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.Color.Silver;
-            this.textBox10.Location = new System.Drawing.Point(17, 149);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(259, 39);
-            this.textBox10.TabIndex = 9;
-            this.textBox10.Text = "Characters Covering:";
-            // 
-            // charactersNavigatingLabel
-            // 
-            this.charactersNavigatingLabel.AutoSize = true;
-            this.charactersNavigatingLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charactersNavigatingLabel.ForeColor = System.Drawing.Color.Silver;
-            this.charactersNavigatingLabel.Location = new System.Drawing.Point(347, 150);
-            this.charactersNavigatingLabel.Name = "charactersNavigatingLabel";
-            this.charactersNavigatingLabel.Size = new System.Drawing.Size(29, 39);
-            this.charactersNavigatingLabel.TabIndex = 8;
-            this.charactersNavigatingLabel.Text = "0";
-            // 
-            // charactersForagingLabel
-            // 
-            this.charactersForagingLabel.AutoSize = true;
-            this.charactersForagingLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charactersForagingLabel.ForeColor = System.Drawing.Color.Silver;
-            this.charactersForagingLabel.Location = new System.Drawing.Point(347, 149);
-            this.charactersForagingLabel.Name = "charactersForagingLabel";
-            this.charactersForagingLabel.Size = new System.Drawing.Size(29, 39);
-            this.charactersForagingLabel.TabIndex = 11;
-            this.charactersForagingLabel.Text = "0";
-            // 
-            // charactersScoutingLabel
-            // 
-            this.charactersScoutingLabel.AutoSize = true;
-            this.charactersScoutingLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charactersScoutingLabel.ForeColor = System.Drawing.Color.Silver;
-            this.charactersScoutingLabel.Location = new System.Drawing.Point(347, 149);
-            this.charactersScoutingLabel.Name = "charactersScoutingLabel";
-            this.charactersScoutingLabel.Size = new System.Drawing.Size(29, 39);
-            this.charactersScoutingLabel.TabIndex = 9;
-            this.charactersScoutingLabel.Text = "0";
-            // 
-            // charactersCoveringLabel
-            // 
-            this.charactersCoveringLabel.AutoSize = true;
-            this.charactersCoveringLabel.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charactersCoveringLabel.ForeColor = System.Drawing.Color.Silver;
-            this.charactersCoveringLabel.Location = new System.Drawing.Point(347, 149);
-            this.charactersCoveringLabel.Name = "charactersCoveringLabel";
-            this.charactersCoveringLabel.Size = new System.Drawing.Size(29, 39);
-            this.charactersCoveringLabel.TabIndex = 10;
-            this.charactersCoveringLabel.Text = "0";
-            // 
             // UnderdarkCompanionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1584, 966);
+            this.ClientSize = new System.Drawing.Size(1454, 966);
             this.Controls.Add(this.outsetLabel);
             this.Controls.Add(this.label34);
             this.Controls.Add(this.label33);
@@ -1131,16 +1227,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox3)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox5)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox6)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox7)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rolePictureBox8)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel10.ResumeLayout(false);
@@ -1191,31 +1293,31 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label playerThreeRole;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label playerThreeName;
         private OvalPictureBox ovalPictureBox2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label playerFourRole;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label playerFourName;
         private OvalPictureBox ovalPictureBox4;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label playerFiveRole;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label playerFiveName;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label eldethRole;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label eldethName;
         private OvalPictureBox ovalPictureBox5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label princeRole;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label princeName;
         private OvalPictureBox ovalPictureBox6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label sarithRole;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label sarithName;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel11;
@@ -1230,7 +1332,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label charactersForagingLabel;
@@ -1245,6 +1346,13 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label charactersNavigatingLabel;
         private System.Windows.Forms.TextBox textBox7;
+        private RolePictureBox rolePictureBox3;
+        private RolePictureBox rolePictureBox4;
+        private RolePictureBox rolePictureBox5;
+        private System.Windows.Forms.TextBox textBox2;
+        private RolePictureBox rolePictureBox6;
+        private RolePictureBox rolePictureBox7;
+        private RolePictureBox rolePictureBox8;
     }
 }
 

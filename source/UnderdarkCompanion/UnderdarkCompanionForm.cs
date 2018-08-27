@@ -24,7 +24,7 @@ namespace UnderdarkCompanion
             roleCountLabelLookup = new Dictionary<Role, Label>
             {
                 { Role.Navigating, charactersNavigatingLabel }, { Role.Foraging, charactersForagingLabel },
-                { Role.Scouting, charactersScoutingLabel }, { Role.Covering, charactersScoutingLabel }
+                { Role.Scouting, charactersScoutingLabel }, { Role.Covering, charactersCoveringLabel }
             };
 
             var controller = new ControlForm(this);
@@ -57,7 +57,7 @@ namespace UnderdarkCompanion
             newCharacter = new Character("Sarith Kzekarit", 3, 3, 3, 3);
             characters.Add(newCharacter);
 
-            charactersNavigatingLabel.Text = "2";
+            charactersNavigatingLabel.Text = "8";
         }
 
         public void SetDestination(string destination)
